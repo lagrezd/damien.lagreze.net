@@ -1,0 +1,101 @@
+# Site settings
+baseURL = "/"
+languageCode = "fr"
+defaultContentLanguage = "fr"
+title = "Développeur Web Bordeaux: création de site, refonte de site"
+theme = "split"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+# Copyright
+copyright = "&copy;2018 Damien Lagreze"
+
+# Site Params
+disableHugoGeneratorInject = "true"
+enableRobotsTXT = "true"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  author = "Damien Lagreze"
+  description = "Développeur Web - Bordeaux - 06 17 27 20 85 - Wordpress"
+  shareImage = ""
+  twitterHandle = "lagrezd"
+  # Favicon
+  favicon = ""
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/laptop-2557576_1920.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Contact"
+
+      #[[params.links.list1.link]]
+      #  text = "Blog"
+      #  url = "#"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "mailto:lagrezd@gmail.com"
+
+      [[params.links.list1.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/damien-lagreze/"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Plus"
+
+      [[params.links.list2.link]]
+        text = "A propos"
+        url = "/a-propos"
+
+      [[params.links.list2.link]]
+        text = "Blog"
+        url = "#"
+
+      #[[params.links.list2.link]]
+      #  text = "Dribbble"
+      #  url = "#"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Réseaux"
+
+      [[params.links.list3.link]]
+        text = "GitHub"
+        url = "https://github.com/lagrezd/"
+
+      [[params.links.list3.link]]
+        text = "Twitter"
+        url = "https://twitter.com/damien_lagreze/"
+
+      #[[params.links.list3.link]]
+      #  text = "Link Three"
+      #  url = "#"
+
+  # The original template is released under the Creative Commons Attribution 3.0 License.
+  # Please keep the original attribution link when using for your own project.
+  # If you'd like to use the template without the attribution, you can check out
+  # the license option via the template author's website: https://onepagelove.com/split

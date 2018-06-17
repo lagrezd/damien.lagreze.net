@@ -1,0 +1,16 @@
+/*
+  You can use import statements to include partials:
+ */
+@import "imports/reset.css";
+
+.split-intro {
+  line-height: 0.2;
+  padding-bottom: 25px;
+}
+.split-intro h1 {
+  margin-bottom: 0;
+}
+
+.split-intro .tagline {
+  font-size: 21px;
+}
